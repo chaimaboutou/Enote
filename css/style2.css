@@ -1,0 +1,33 @@
+    
+    /* Center the card */
+    .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 100vh; */
+    }
+
+
+.larger-card {
+width: 50%; /* Adjust this value to control the width of the card */
+margin: 0 auto; /* Center the card horizontally */
+}
+
+.card-title {
+margin-bottom: 20px; /* Add margin below the card title */
+font-size: 24px; /* Adjust the font size for the card title */
+}
+
+.label {
+display: inline-block;
+width: 150px; /* Adjust this width based on your needs */
+font-weight: bold; /* Make the label text bold */
+font-size: 18px; /* Adjust the font size for the labels */
+}
+
+.value {
+margin-left: 100px; /* Add margin to create space between the label and the value */
+font-size: 18px; /* Adjust the font size for the values */
+}
+
+
